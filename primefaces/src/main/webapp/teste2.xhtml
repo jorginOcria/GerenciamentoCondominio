@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="j_idt2">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sign In Template for BootsFaces</title>
+<meta name="author" content="Riccardo Massera" />
+<style type="text/css">
+.form-signin {
+	margin: 0 auto;
+	max-width: 330px;
+	padding: 15px;
+}
+</style>
+<link type="text/css" rel="stylesheet"
+	href="/Examples/javax.faces.resource/css/spacelab/core.css.jsf?ln=bsf" />
+<link type="text/css" rel="stylesheet"
+	href="/Examples/javax.faces.resource/css/spacelab/theme.css.jsf?ln=bsf" />
+<link type="text/css" rel="stylesheet"
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	crossorigin="anonymous" />
+<link type="text/css" rel="stylesheet"
+	href="/Examples/javax.faces.resource/css/bsf.css.jsf?ln=bsf" />
+<!--[if lt IE 9]><script src="/Examples/javax.faces.resource/js/html5shiv.js.jsf?ln=bsf"></script><script src="/Examples/javax.faces.resource/js/respond.js.jsf?ln=bsf"></script><![endif]-->
+<script type="text/javascript"
+	src="/Examples/javax.faces.resource/jq/jquery.js.jsf?ln=bsf"></script>
+<script type="text/javascript"
+	src="/Examples/javax.faces.resource/jsf.js.jsf?ln=javax.faces"></script>
+<script type="text/javascript"
+	src="/Examples/javax.faces.resource/js/tooltip.js.jsf?ln=bsf"></script>
+<script type="text/javascript"
+	src="/Examples/javax.faces.resource/js/bsf.js.jsf?ln=bsf"></script>
+</head>
+<body style="padding-top: 60px; background-color: #add;">
+	<div id="j_idt5" class="container">
+		<form id="j_idt6" name="j_idt6" method="post"
+			action="/Examples/signin.jsf" class="form-signin"
+			enctype="application/x-www-form-urlencoded">
+			<input type="hidden" name="j_idt6" value="j_idt6" />
+
+			<h2 class="form-signin-heading">Please sign in</h2>
+			<div id="email" class="form-group ">
+				<div class="input-group">
+					<span class="input-group-addon"><span><i
+							id="j_idt8_icon" class="glyphicon glyphicon-user"></i></span></span><input
+						id="input_email" name="input_email" type="text"
+						class="form-control" placeholder="Email address" />
+				</div>
+			</div>
+			<div id="password" class="form-group ">
+				<div class="input-group">
+					<span class="input-group-addon"><span><i
+							id="j_idt9_icon" class="fa fa-key"></i></span></span><input id="input_password"
+						name="input_password" type="password" class="form-control"
+						placeholder="Password" />
+				</div>
+			</div>
+			<div id="j_idt10" class="form-group ">
+				<div class="checkbox">
+					<label><input name="j_idt10" id="input_j_idt10"
+						type="checkbox" checked="true" /> remember me</label>
+				</div>
+				<input name="j_idt10_helper" value="on" checked="true" type="hidden"
+					style="display: none" />
+			</div>
+			<button type="submit" id="j_idt11" name="j_idt11"
+				class="btn btn-lg btn-primary btn-block">
+				<span><i class="glyphicon glyphicon-log-in"></i></span> Sign In
+			</button>
+			<input type="hidden" name="javax.faces.ViewState"
+				id="j_id1:javax.faces.ViewState:0"
+				value="5773545462828728593:683208059507949837" autocomplete="off" />
+		</form>
+	</div>
+</body>
+</html>
