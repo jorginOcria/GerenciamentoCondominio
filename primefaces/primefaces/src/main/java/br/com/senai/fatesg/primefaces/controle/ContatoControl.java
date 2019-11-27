@@ -37,7 +37,7 @@ public class ContatoControl {
 	public void confirmar(ActionEvent evt){
 		try {
 			contatoDao.alterar(contato);
-         listar(evt);
+      //criar novo       	
          contato = new Contato();
 		} catch (Exception e) {
 		   UtilFaces.addMensagemFaces(e);
